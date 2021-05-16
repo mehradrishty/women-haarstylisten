@@ -1,0 +1,16 @@
+#SEO - redirect for calls from www-urls to non-www-urls (prevents multi-content <-- google hates that!)
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+RewriteCond %{HTTPS} on
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+#RewriteEngine for more readably links
+RewriteEngine On
+
+RewriteRule ^start/$ ./ [L]
+RewriteRule ^([^/]*)/([^/]*)/$ ./index.php?page=$1&subpage=$2 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/$ ./index.php?page=$1&subpage=$2&ref=$3 [L]
+RewriteRule ^([^/]*)/$ ./index.php?page=$1 [L]

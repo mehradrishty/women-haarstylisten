@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ nav ul a,
+ nav .brand-logo {
+   color: #444;
+ }
+ 
+ p {
+   line-height: 2rem;
+ }
+ 
+ .sidenav-trigger {
+   color: #26a69a;
+ }
+ 
+ .parallax-container {
+   min-height: 380px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+ }
+   .parallax-container .section {
+     width: 100%;
+   }
+ 
+ @media only screen and (max-width : 992px) {
+   .parallax-container .section {
+     position: absolute;
+     top: 40%;
+   }
+   #index-banner .section {
+     top: 10%;
+   }
+ }
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+     top: 0;
+   }
+ }
+ 
+ .icon-block {
+   padding: 0 15px;
+ }
+ .icon-block .material-icons {
+   font-size: inherit;
+ }
+ 
+ footer.page-footer {
+   margin: 0;
+ }
+ 
+ /* custom styles */
+ /* .parallax-container-custom{
+   height: 800px !important;
+ } */
+
+ .parallex-image-custom{
+  background-position: 50% 50px;
+  max-width: 100%;
+  height: auto !important;
+ }
+
+ .displayNone{
+  visibility:hidden;
+ }
+
+ .collapsible-body{
+   padding: 0rem!important;
+ }
+
+ .collapsible-body p{
+  line-height:1rem;
+  text-align: left;
+  margin-left: 25px;
+ }
+
+ /* Slider */
+.slick-slide {
+  margin: 0px 0px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+
+.slick-slider
+{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+          user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+      touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-list:focus
+{
+  outline: none;
+}
+.slick-list.dragging
+{
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+  -webkit-transform: translate3d(0, 0, 0);
+     -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+       -o-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+  display: table;
+  content: '';
+}
+.slick-track:after
+{
+  clear: both;
+}
+.slick-loading .slick-track
+{
+  visibility: hidden;
+}
+
+.slick-slide
+{
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+  float: right;
+}
+.slick-slide img
+{
+  display: block;
+}
+.slick-slide.slick-loading img
+{
+  display: none;
+}
+.slick-slide.dragging img
+{
+  pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+  display: block;
+}
+.slick-loading .slick-slide
+{
+  visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
+.backrgoundImage{
+  
+  /* background-image: linear-gradient(to right top, #4a3112, #422f12, #3b2c12, #342a12, #2e2713); */
+  background-image: linear-gradient(to right top, #4a3112, #4c330f, #4d350a, #4e3806, #4e3a01);
+}
+
+.backrgoundImage2{
+  background-image: linear-gradient(to right top, #4f4130, #554227, #5b441d, #5f4611, #624800);
+}
+
+.sidenav-background{
+  background-image: linear-gradient(to right top, #483723, #47351c, #463314, #43310b, #413000);
+}
+
+.sideNavTextStyle {
+  color: #eee !important;
+  display: block;
+  font-size: 17px !important;
+  font-weight: 500;
+  height: 48px;
+  line-height: 40px;
+  padding: 0 32px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.snip1529 {
+  background-color: #000000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  float: left;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 10px 1%;
+  max-width: 310px;
+  min-width: 250px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.snip1529 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.snip1529 img {
+  max-width: 100%;
+  vertical-align: top;
+  position: relative;
+  opacity: 0.75;
+}
+
+.snip1529 figcaption {
+  padding: 25px 20px 25px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.snip1529 .date {
+  background-color: #fff;
+  color: #333;
+  font-size: 18px;
+  font-weight: 800;
+  min-height: 48px;
+  min-width: 48px;
+  padding: 10px 0;
+  position: absolute;
+  right: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.snip1529 .date span {
+  display: block;
+  line-height: 14px;
+}
+
+.snip1529 .date .month {
+  font-size: 11px;
+}
+
+.snip1529 h3,
+.snip1529 p {
+  margin: 0;
+  padding: 0;
+}
+
+.snip1529 h3 {
+  font-weight: 800;
+  letter-spacing: -0.4px;
+}
+
+.snip1529 .hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  background-color: rgba(236, 188, 46, 0.75);
+  display: flex;
+  font-size: 65px;
+  justify-content: center;
+  opacity: 0;
+}
+
+.snip1529 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.snip1529:hover .hover,
+.snip1529.hover .hover {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  opacity: 1;
+}
+
+.snip1529:hover figcaption,
+.snip1529.hover figcaption {
+  opacity: 0;
+}
+
+.snip1529:hover .date,
+.snip1529.hover .date {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+i{
+  text-transform: uppercase;
+	background: linear-gradient(to right top, #f9a602, #f8bc38, #f7d05d, #f9e380, #fcf4a3);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+h5{
+  color: #FAEBD7;
+}
+
+H4{
+  text-transform: uppercase;
+	background: linear-gradient(to right top, #f9a602, #f8bc38, #f7d05d, #f9e380, #fcf4a3);
+	-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+p{
+  color: white;
+}
+
+div.collapsible-header{
+  background-color: #F9F6EB;
+  
+}
+
+div.collapsible-body{
+  background-color: #4e3806;
+}
+
+ul.collapsible{
+  background-color: #4e3806;
+}
+
+ul.collapsible p{
+  color: white;
+}
+
+
+@media only screen and (min-width: 992px) {
+  .parallax-container-custom2 .parallax img{
+    width: 100%;
+  }  
+  .slider{
+    height: 300px!important;
+  }
+  .mainLogoClass{
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .placeMentClass{
+    display: contents;
+  }  
+  .slider{
+    height: 180px!important;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .parallax-container-custom2 .parallax img{
+    width: 100% !important;
+    height: auto !important;
+  }  
+  .parallax-container{
+    min-height: 500px!important;
+    height: auto!important;
+  }
+
+  .backrgoundImage nav-wrapper container{
+    margin-left: 10%;
+  }
+  .slider{
+    height: 180px!important;
+  }
+  .mainLogoClass{
+    width: 200px;
+  }
+  .setImageUrl{
+    content:url("../assets/img/mainSlideShowPictures/mobilePic10.jpg")!important;
+  }
+}
