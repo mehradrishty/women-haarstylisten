@@ -35,33 +35,33 @@ export class AppComponent {
       {
         serviceNamen : "Trockenschnitt",
         preisListe : [
-          "Kurz: 20€",
-          "Mittel: 23€",
-          "Lang: 26€",
-          "Schüler/Stundenten: 18€",
-          "Kinder bis 8 Jahren: 15€"
+          "Kurz: 25€",
+          "Mittel: 29€",
+          "Lang: 33€",
+          "Schüler/Stundenten: 23€",
+          "Kinder bis 8 Jahren: 19€"
         ]
       },
       {
         serviceNamen : "Waschen & Schneiden",
         preisListe : [
-          "Kurz: 24€",
-          "Mittel: 26€",
-          "Lang: 28€"
+          "Kurz: 28€",
+          "Mittel: 33€",
+          "Lang: 35€"
         ]
       },
       {
         serviceNamen : "Waschen, Schneiden & Föhnen",
         preisListe : [
-          "Kurz: 37€"
-          ,"Mittel: 42€"
-          ,"Lang: 48€"
+          "Kurz: 45€"
+          ,"Mittel: 50€"
+          ,"Lang: 57€"
         ]
       },
       {
         serviceNamen : "Konturen",
         preisListe : [
-          "10€",
+          "13€",
         ]
       }
     ];
@@ -70,23 +70,21 @@ export class AppComponent {
       {
         serviceNamen : "Waschen & Föhnen",
         preisListe : [
-          "Kurz: 18€",
-          "Mittel: 20€",
-          "Lang: 24€"
+          "Kurz: 20€",
+          "Lang: 34€"
         ]
       },
       {
         serviceNamen : "Waschen & Einlegen",
         preisListe : [
-          "Kurz: 22€",
-          "Mittel: 27€",
-          "Lang: 32€"
+          "Kurz: 29€",
+          "Lang: 45€"
         ]
       },
       {
         serviceNamen : "Waschen & Locken mit Lockenstab",
         preisListe : [
-          "35€"
+          "42€"
         ]
       }
     ];
@@ -95,19 +93,19 @@ export class AppComponent {
       {
         serviceNamen : "Flechtfrisuren",
         preisListe : [
-          "15€"
+          "24€"
         ]
       },
       {
         serviceNamen : "Abendfrisur",
         preisListe : [
-          "45€"
+          "72€"
         ]
       },
       {
         serviceNamen : "Brautfrisur",
         preisListe : [
-          "ab 150€"
+          "ab 540€"
         ]
       },
     ];
@@ -116,23 +114,23 @@ export class AppComponent {
       {
         serviceNamen : "Ansatzfarbe",
         preisListe : [
-          "33€"
+          "41€"
         ]
       },
       {
         serviceNamen : "Komplettfarbe",
         preisListe : [
-          "Kurz: 40€",
-          "Mittel: 49€",
-          "Lang: 59€"
+          "Kurz: 50€",
+          "Mittel: 60€",
+          "Lang: 73€"
         ]
       },
       {
         serviceNamen : "Intensivtönung",
         preisListe : [
-          "Kurz: 35€",
-          "Mittel: 45€",
-          "Lang: 55€"
+          "Kurz: 50€",
+          "Mittel: 60€",
+          "Lang: 73€"
         ]
       },
       {
@@ -146,9 +144,9 @@ export class AppComponent {
       {
         serviceNamen : "Abmattierung",
         preisListe : [
-          "Kurz: 30€",
-          "Mittel: 35€",
-          "Lang: 40€"
+          "Kurz: 37€",
+          "Mittel: 43€",
+          "Lang: 49€"
         ]
       },
     ];
@@ -157,27 +155,29 @@ export class AppComponent {
       {
         serviceNamen : "Foliensträhnen (Oberkopf)",
         preisListe : [
-          "ab 45€"
+          "ab 56€"
         ]
       },
       {
         serviceNamen : "Foliensträhnen (Komplett Neu)",
         preisListe : [
-          "Kurz: 55€",
-          "Mittel: 70€",
-          "Lang: 85€"
+          "Kurz: 66",
+          "Mittel: 84€",
+          "Lang: 102€"
         ]
       },
       {
         serviceNamen : "Painting",
         preisListe : [
-          "ab 180€"
+          "Kurz: 66",
+          "Mittel: 84€",
+          "Lang: 102€"
         ]
       },
       {
         serviceNamen : "Balayage",
         preisListe : [
-          "ab 180€"
+          "ab 220€"
         ]
       },
     ];
@@ -186,37 +186,37 @@ export class AppComponent {
       {
         serviceNamen : "Augenbrauen Zupfen",
         preisListe : [
-          "8€"
+          "10€"
         ]
       },
       {
         serviceNamen : "Augenbrauen Färben",
         preisListe : [
-          "8€"
+          "10€"
         ]
       },
       {
         serviceNamen : "Wimpern Färben",
         preisListe : [
-          "10€"
+          "12€"
         ]
       },
       {
         serviceNamen : "Tages Make-Up",
         preisListe : [
-          "45€"
+          "54€"
         ]
       },
       {
         serviceNamen : "Abend Make-Up",
         preisListe : [
-          "55€"
+          "66€"
         ]
       },
       {
         serviceNamen : "Braut Make-Up",
         preisListe : [
-          "75€"
+          "90€"
         ]
       }
     ];
@@ -225,33 +225,33 @@ export class AppComponent {
       {
         serviceNamen : "Splissschnitt",
         preisListe : [
-          "28€"
+          "35€"
         ]
       },
       {
         serviceNamen : "Olaplex Treatment",
         preisListe : [
-          "30€"
+          "54€"
         ]
       },
       {
         serviceNamen : "Dauerwelle",
         preisListe : [
-          "Kurz: 45€",
-          "Mittel: 55€",
-          "Lang: 65€"
+          "Kurz: 54€",
+          "Mittel: 66€",
+          "Lang: 78€"
         ]
       },
       {
         serviceNamen : "Haarkur",
         preisListe : [
-          "8€"
+          "10€"
         ]
       },
       {
         serviceNamen : "Keratinglättung",
         preisListe : [
-          "ab 180€"
+          "ab 220€"
         ]
       },
     ];
@@ -566,7 +566,13 @@ export class AppComponent {
           "Mittel: 25€",
           "Lang: 30€"
         ]
-      }
+      },
+      {
+        serviceNamen : "Olaplexbehandlung für Farbe",
+        preisListe : [
+          "55€"
+        ]
+      },
     ]
 
     this.starhnenPreisList = [
