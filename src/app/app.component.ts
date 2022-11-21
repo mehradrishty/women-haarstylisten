@@ -33,8 +33,8 @@ export class AppComponent {
 
     this.cutList = [
       {
-        serviceNamen : 'Trockenschnitt',
-        preisListe : [
+        serviceNamen: 'Trockenschnitt',
+        preisListe: [
           'Kurz: ab 25€',
           'Mittel: ab 29€',
           'Lang: ab 33€',
@@ -43,24 +43,24 @@ export class AppComponent {
         ]
       },
       {
-        serviceNamen : 'Waschen & Schneiden',
-        preisListe : [
+        serviceNamen: 'Waschen & Schneiden',
+        preisListe: [
           'Kurz: ab 28€',
           'Mittel: ab 33€',
           'Lang: ab 35€'
         ]
       },
       {
-        serviceNamen : 'Waschen, Schneiden & Föhnen',
-        preisListe : [
+        serviceNamen: 'Waschen, Schneiden & Föhnen',
+        preisListe: [
           'Kurz: ab 37€'
           , 'Mittel: ab 42€'
           , 'Lang: ab 48€'
         ]
       },
       {
-        serviceNamen : 'Konturen',
-        preisListe : [
+        serviceNamen: 'Konturen',
+        preisListe: [
           'ab 13€',
         ]
       }
@@ -68,22 +68,22 @@ export class AppComponent {
 
     this.styleList = [
       {
-        serviceNamen : 'Waschen & Föhnen',
-        preisListe : [
+        serviceNamen: 'Waschen & Föhnen',
+        preisListe: [
           'Kurz: ab 26€',
           'Lang: ab 34€'
         ]
       },
       {
-        serviceNamen : 'Waschen & Einlegen',
-        preisListe : [
+        serviceNamen: 'Waschen & Einlegen',
+        preisListe: [
           'Kurz: ab 29€',
           'Lang: ab 45€'
         ]
       },
       {
-        serviceNamen : 'Waschen & Locken mit Lockenstab',
-        preisListe : [
+        serviceNamen: 'Waschen & Locken mit Lockenstab',
+        preisListe: [
           'ab 42€'
         ]
       }
@@ -91,20 +91,20 @@ export class AppComponent {
 
     this.hochsteckfrisurenList = [
       {
-        serviceNamen : 'Flechtfrisuren',
-        preisListe : [
+        serviceNamen: 'Flechtfrisuren',
+        preisListe: [
           'ab 24€'
         ]
       },
       {
-        serviceNamen : 'Abendfrisur',
-        preisListe : [
+        serviceNamen: 'Abendfrisur',
+        preisListe: [
           'ab 72€'
         ]
       },
       {
-        serviceNamen : 'Brautfrisur',
-        preisListe : [
+        serviceNamen: 'Brautfrisur',
+        preisListe: [
           'ab 150€'
         ]
       },
@@ -112,38 +112,38 @@ export class AppComponent {
 
     this.colorList1 = [
       {
-        serviceNamen : 'Ansatzfarbe',
-        preisListe : [
+        serviceNamen: 'Ansatzfarbe',
+        preisListe: [
           'ab 33€'
         ]
       },
       {
-        serviceNamen : 'Komplettfarbe',
-        preisListe : [
+        serviceNamen: 'Komplettfarbe',
+        preisListe: [
           'Kurz: ab 50€',
           'Mittel: ab 60€',
           'Lang: ab 73€'
         ]
       },
       {
-        serviceNamen : 'Intensivtönung',
-        preisListe : [
+        serviceNamen: 'Intensivtönung',
+        preisListe: [
           'Kurz: ab 50€',
           'Mittel: ab 60€',
           'Lang: ab 73€'
         ]
       },
+      // {
+      //   serviceNamen: 'Pflegetönung',
+      //   preisListe: [
+      //     'Kurz: ab 35€',
+      //     'Mittel: ab 45€',
+      //     'Lang: ab 55€'
+      //   ]
+      // },
       {
-        serviceNamen : 'Pflegetönung',
-        preisListe : [
-          'Kurz: ab 35€',
-          'Mittel: ab 45€',
-          'Lang: ab 55€'
-        ]
-      },
-      {
-        serviceNamen : 'Abmattierung',
-        preisListe : [
+        serviceNamen: 'Abmattierung',
+        preisListe: [
           'Kurz: ab 37€',
           'Mittel: ab 43€',
           'Lang: ab 49€'
@@ -153,167 +153,167 @@ export class AppComponent {
 
     this.colorList2 = [
       {
-        serviceNamen : 'Foliensträhnen (Oberkopf)',
-        preisListe : [
+        serviceNamen: 'Foliensträhnen (Oberkopf)',
+        preisListe: [
           'ab 70€'
         ]
       },
       {
-        serviceNamen : 'Foliensträhnen (Komplett Neu)',
-        preisListe : [
+        serviceNamen: 'Foliensträhnen (Komplett Neu)',
+        preisListe: [
           'Kurz: ab 55€',
           'Mittel: ab 70€',
           'Lang: ab 85€'
         ]
       },
       {
-        serviceNamen : 'Painting',
-        preisListe : [
+        serviceNamen: 'Painting',
+        preisListe: [
           'Kurz: ab 66€',
           'Mittel: ab 84€',
           'Lang: ab 102€'
         ]
       },
       {
-        serviceNamen : 'Balayage',
-        preisListe : [
-          'ab 220€'
+        serviceNamen: 'Balayage',
+        preisListe: [
+          'ab 200€'
         ]
       },
     ];
 
     this.kosmetikList = [
       {
-        serviceNamen : 'Augenbrauen Zupfen',
-        preisListe : [
+        serviceNamen: 'Augenbrauen Zupfen',
+        preisListe: [
           'ab 10€'
         ]
       },
       {
-        serviceNamen : 'Augenbrauen Färben',
-        preisListe : [
+        serviceNamen: 'Augenbrauen Färben',
+        preisListe: [
           'ab 10€'
         ]
       },
       {
-        serviceNamen : 'Wimpern Färben',
-        preisListe : [
+        serviceNamen: 'Wimpern Färben',
+        preisListe: [
           'ab 12€'
         ]
       },
-      {
-        serviceNamen : 'Tages Make-Up',
-        preisListe : [
-          'ab 54€'
-        ]
-      },
-      {
-        serviceNamen : 'Abend Make-Up',
-        preisListe : [
-          'ab 66€'
-        ]
-      },
-      {
-        serviceNamen : 'Braut Make-Up',
-        preisListe : [
-          'ab 90€'
-        ]
-      }
+      // {
+      //   serviceNamen: 'Tages Make-Up',
+      //   preisListe: [
+      //     'ab 54€'
+      //   ]
+      // },
+      // {
+      //   serviceNamen: 'Abend Make-Up',
+      //   preisListe: [
+      //     'ab 66€'
+      //   ]
+      // },
+      // {
+      //   serviceNamen: 'Braut Make-Up',
+      //   preisListe: [
+      //     'ab 90€'
+      //   ]
+      // }
     ];
 
     this.specialsList = [
       {
-        serviceNamen : 'Splissschnitt',
-        preisListe : [
+        serviceNamen: 'Splissschnitt',
+        preisListe: [
           'ab 35€'
         ]
       },
       {
-        serviceNamen : 'Olaplex Treatment',
-        preisListe : [
+        serviceNamen: 'Olaplex Treatment',
+        preisListe: [
           'ab 55€'
         ]
       },
       {
-        serviceNamen : 'Dauerwelle',
-        preisListe : [
+        serviceNamen: 'Dauerwelle',
+        preisListe: [
           'Kurz: ab 54€',
           'Mittel: ab 66€',
           'Lang: ab 78€'
         ]
       },
       {
-        serviceNamen : 'Haarkur',
-        preisListe : [
-          'ab 10€'
+        serviceNamen: 'Haarkur',
+        preisListe: [
+          'ab 8€'
         ]
       },
       {
-        serviceNamen : 'Keratinglättung',
-        preisListe : [
-          'ab 220€'
+        serviceNamen: 'Keratinglättung',
+        preisListe: [
+          'ab 150€'
         ]
       },
     ];
 
     this.damenPreisList1 = [
       {
-        serviceNamen : 'Waschen & Schneiden',
-        preisListe : [
+        serviceNamen: 'Waschen & Schneiden',
+        preisListe: [
           'Kurz: ab 22€',
           'Mittel: ab 24€',
           'Lang: ab 26€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Waschen, Schneiden, Föhnen & Styling',
-        preisListe : [
+        serviceNamen: 'Waschen, Schneiden, Föhnen & Styling',
+        preisListe: [
           'Kurz: ab 35€'
           , 'Mittel: ab 40€'
           , 'Lang: ab 45€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Waschen & Föhnen',
-        preisListe : [
+        serviceNamen: 'Waschen & Föhnen',
+        preisListe: [
           'Kurz: ab 18€',
           'Lang: ab 24€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Waschen & Einlegen',
-        preisListe : [
+        serviceNamen: 'Waschen & Einlegen',
+        preisListe: [
           'Kurz: ab 22€',
           'Mittel: ab 27€',
           'Lang: ab 32€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Waschen & Locken mit Lockenstab',
-        preisListe : [
+        serviceNamen: 'Waschen & Locken mit Lockenstab',
+        preisListe: [
           'ab 35€'
-         ]
+        ]
       }
     ];
 
     this.damenPreisList3 = [
       {
-        serviceNamen : 'Brautstyling Kompelett ',
-        preisListe : [
+        serviceNamen: 'Brautstyling Kompelett ',
+        preisListe: [
           'ab 250€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Konturen',
-        preisListe : [
+        serviceNamen: 'Konturen',
+        preisListe: [
           'ab 10€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Kinder ( bis 8 jahre )',
-        preisListe : [
+        serviceNamen: 'Kinder ( bis 8 jahre )',
+        preisListe: [
           'ab 15€'
-         ]
+        ]
       },
       {
         serviceNamen: 'Splissschnitt',
@@ -322,10 +322,10 @@ export class AppComponent {
         ]
       },
       {
-        serviceNamen : 'Wasserwelle',
-        preisListe : [
+        serviceNamen: 'Wasserwelle',
+        preisListe: [
           'Ab 40€'
-         ]
+        ]
       },
       {
         serviceNamen: 'Keratinglättung',
@@ -337,93 +337,93 @@ export class AppComponent {
 
     this.damenPreisList2 = [
       {
-        serviceNamen : 'Brautfrisur',
-        preisListe : [
+        serviceNamen: 'Brautfrisur',
+        preisListe: [
           'ab 150€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Hennafrisur',
-        preisListe : [
+        serviceNamen: 'Hennafrisur',
+        preisListe: [
           'ab 90€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Abendfrisur',
-        preisListe : [
-          'ab 45€'
-         ]
+        serviceNamen: 'Abendfrisur',
+        preisListe: [
+          'ab 60€'
+        ]
       },
       {
-        serviceNamen : 'Flechtfrisuren',
-        preisListe : [
+        serviceNamen: 'Flechtfrisuren',
+        preisListe: [
           'ab 15€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Lokenfrisur',
-        preisListe : [
+        serviceNamen: 'Lokenfrisur',
+        preisListe: [
           'Ab 30€'
-         ]
-      }
-    ];
-
-    this.pMMBAugen = [
-      {
-        serviceNamen: 'Lidstrich Oberlied',
-        preisListe: [
-          'ab 200€'
-        ]
-      },
-      {
-        serviceNamen: 'Lidstrich Ober-unterlied',
-        preisListe: [
-          'ab 400€'
-        ]
-      },
-      {
-        serviceNamen: 'Wimperkranzverdichtung (Oberlied)',
-        preisListe: [
-          'ab 180€'
-        ]
-      },
-      {
-        serviceNamen: 'Wimperkranzverdichtung (Ober-unterlied)',
-        preisListe: [
-          'ab 320€'
         ]
       }
     ];
 
-    this.pMMBAugenBrauen = [
-      {
-        serviceNamen: 'Haarzeichnung (Fein)',
-        preisListe: [
-          'ab 380€'
-        ]
-      },
-      {
-        serviceNamen: 'Haarzeichnung (Korektur)',
-        preisListe: [
-          'ab 120€'
-        ]
-      }
-    ];
+    // this.pMMBAugen = [
+    //   {
+    //     serviceNamen: 'Lidstrich Oberlied',
+    //     preisListe: [
+    //       'ab 200€'
+    //     ]
+    //   },
+    //   {
+    //     serviceNamen: 'Lidstrich Ober-unterlied',
+    //     preisListe: [
+    //       'ab 400€'
+    //     ]
+    //   },
+    //   {
+    //     serviceNamen: 'Wimperkranzverdichtung (Oberlied)',
+    //     preisListe: [
+    //       'ab 180€'
+    //     ]
+    //   },
+    //   {
+    //     serviceNamen: 'Wimperkranzverdichtung (Ober-unterlied)',
+    //     preisListe: [
+    //       'ab 320€'
+    //     ]
+    //   }
+    // ];
 
-    this.pMMBLippen = [
-      {
-        serviceNamen: 'Lippenschattierung',
-        preisListe: [
-          'ab 450€'
-        ]
-      },
-      {
-        serviceNamen: 'Vollschattierung',
-        preisListe: [
-          'ab 600€'
-        ]
-      }
-    ];
+    // this.pMMBAugenBrauen = [
+    //   {
+    //     serviceNamen: 'Haarzeichnung (Fein)',
+    //     preisListe: [
+    //       'ab 380€'
+    //     ]
+    //   },
+    //   {
+    //     serviceNamen: 'Haarzeichnung (Korektur)',
+    //     preisListe: [
+    //       'ab 120€'
+    //     ]
+    //   }
+    // ];
+
+    // this.pMMBLippen = [
+    //   {
+    //     serviceNamen: 'Lippenschattierung',
+    //     preisListe: [
+    //       'ab 450€'
+    //     ]
+    //   },
+    //   {
+    //     serviceNamen: 'Vollschattierung',
+    //     preisListe: [
+    //       'ab 600€'
+    //     ]
+    //   }
+    // ];
 
     this.haarVerlangerungPreisList = [
       {
@@ -540,7 +540,7 @@ export class AppComponent {
       {
         serviceNamen: 'Ansatzfarbe',
         preisListe: [
-          'ab 30€'
+          'ab 41€'
         ]
       },
       {
@@ -559,31 +559,29 @@ export class AppComponent {
           'Lang: ab 35€'
         ]
       },
-      {
-        serviceNamen: 'Pflegetönung',
-        preisListe: [
-          'Kurz: ab 20€',
-          'Mittel: ab 25€',
-          'Lang: ab 30€'
-        ]
-      }
+      // {
+      //   serviceNamen: 'Pflegetönung',
+      //   preisListe: [
+      //     'Kurz: ab 20€',
+      //     'Mittel: ab 25€',
+      //     'Lang: ab 30€'
+      //   ]
+      // }
     ];
 
     this.starhnenPreisList = [
       {
         serviceNamen: 'Foliensträhnen ( Komplett Neu )',
         preisListe: [
-          'Kurz: ab 50€',
-          'Mittel: ab 60€',
-          'Lang: ab 75€'
+          'Kurz: ab 66€',
+          'Mittel: ab 84€',
+          'Lang: ab 102€'
         ]
       },
       {
-        serviceNamen: 'Foliensträhnen ( Ansatz )',
+        serviceNamen: 'Foliensträhnen ( Oberkopf )',
         preisListe: [
-          'Kurz: ab 35€',
-          'Mittel: ab 45€',
-          'Lang: ab 55€'
+          'ab 79€'
         ]
       },
       {
@@ -606,22 +604,22 @@ export class AppComponent {
 
     this.kosmeticPreisList = [
       {
-        serviceNamen : 'Augenbrauen-Zupfen',
-        preisListe : [
+        serviceNamen: 'Augenbrauen-Zupfen',
+        preisListe: [
           'ab 8€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Augenbrauen-färben',
-        preisListe : [
+        serviceNamen: 'Augenbrauen-färben',
+        preisListe: [
           'ab 8€'
-         ]
+        ]
       },
       {
-        serviceNamen : 'Wimpern-färben',
-        preisListe : [
+        serviceNamen: 'Wimpern-färben',
+        preisListe: [
           'ab 10€'
-         ]
+        ]
       }
     ];
   }
