@@ -110,31 +110,35 @@
 <div class="container" id="preisDiv">
   <div class="section">
 
+    <!-- Row 1: CUT / STYLE -->
     <div class="row">
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
         <h4>Preisliste</h4>
+
         <div class="col s12 m6 animated displayNone" id="preisList1">
           <h5 style="text-align:left">CUT</h5>
           <ul class="collapsible">
             <li *ngFor="let item of cutList; let i = index">
-              <div class="collapsible-header"><img src="assets/img/icons/icnLady1.svg" style="height: 30px">&nbsp;
-                {{item.serviceNamen}}</div>
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
               <div class="collapsible-body">
-                <p *ngFor="let itemPreisComp of item.preisListe; let j = index">{{itemPreisComp}}</p>
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
               </div>
             </li>
           </ul>
         </div>
 
-        <div class="col s12 m6 animated displayNone" id="preisList8">
+        <div class="col s12 m6 animated displayNone" id="preisList2">
           <h5 style="text-align:left">STYLE</h5>
           <ul class="collapsible">
             <li *ngFor="let item of styleList; let i = index">
-              <div class="collapsible-header"><img src="assets/img/icons/icnLady1.svg" style="height: 30px">&nbsp;
-                {{item.serviceNamen}}</div>
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
               <div class="collapsible-body">
-                <p *ngFor="let itemPreisComp of item.preisListe; let j = index">{{itemPreisComp}}</p>
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
               </div>
             </li>
           </ul>
@@ -143,6 +147,7 @@
       </div>
     </div>
 
+    <!-- Row 2: COLOR -->
     <div class="row">
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -151,22 +156,25 @@
           <h5 style="text-align:left">COLOR</h5>
           <ul class="collapsible">
             <li *ngFor="let item of colorList1; let i = index">
-              <div class="collapsible-header"><img src="assets/img/icons/icnLady1.svg" style="height: 30px">&nbsp;
-                {{item.serviceNamen}}</div>
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
               <div class="collapsible-body">
-                <p *ngFor="let itemPreisComp of item.preisListe; let j = index">{{itemPreisComp}}</p>
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
               </div>
             </li>
           </ul>
         </div>
-        <div class="col s12 m6 animated displayNone" id="preisList2">
+
+        <div class="col s12 m6 animated displayNone" id="preisList4">
           <h5 style="text-align:left">COLOR</h5>
           <ul class="collapsible">
             <li *ngFor="let item of colorList2; let i = index">
-              <div class="collapsible-header"><img src="assets/img/icons/icnLady1.svg" style="height: 30px">&nbsp;
-                {{item.serviceNamen}}</div>
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
               <div class="collapsible-body">
-                <p *ngFor="let itemPreisComp of item.preisListe; let j = index">{{itemPreisComp}}</p>
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
               </div>
             </li>
           </ul>
@@ -175,6 +183,7 @@
       </div>
     </div>
 
+    <!-- Row 3: KOSMETIK / SPECIALS -->
     <div class="row">
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
@@ -183,22 +192,25 @@
           <h5 style="text-align:left">KOSMETIK</h5>
           <ul class="collapsible">
             <li *ngFor="let item of kosmetikList; let i = index">
-              <div class="collapsible-header"><img src="assets/img/icons/icnLady1.svg" style="height: 30px">&nbsp;
-                {{item.serviceNamen}}</div>
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
               <div class="collapsible-body">
-                <p *ngFor="let itemPreisComp of item.preisListe; let j = index">{{itemPreisComp}}</p>
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
               </div>
             </li>
           </ul>
         </div>
-        <div class="col s12 m6 animated displayNone" id="preisList4">
-          <h5 style="text-align:left">SPECIALS </h5>
+
+        <div class="col s12 m6 animated displayNone" id="preisList6">
+          <h5 style="text-align:left">SPECIALS</h5>
           <ul class="collapsible">
             <li *ngFor="let item of specialsList; let i = index">
-              <div class="collapsible-header"><img src="assets/img/icons/icnLady1.svg" style="height: 30px">&nbsp;
-                {{item.serviceNamen}}</div>
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
               <div class="collapsible-body">
-                <p *ngFor="let itemPreisComp of item.preisListe; let j = index">{{itemPreisComp}}</p>
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
               </div>
             </li>
           </ul>
@@ -207,32 +219,81 @@
       </div>
     </div>
 
+    <!-- Row 4: HOCHSTECKFRISUREN / EXTENSIONS -->
     <div class="row">
       <div class="col s12 center">
         <h3><i class="mdi-content-send brown-text"></i></h3>
 
-        <div class="col s12 m6 animated displayNone" id="preisList5">
+        <div class="col s12 m6 animated displayNone" id="preisList7">
           <h5 style="text-align:left">HOCHSTECKFRISUREN</h5>
           <ul class="collapsible">
             <li *ngFor="let item of hochsteckfrisurenList; let i = index">
-              <div class="collapsible-header"><img src="assets/img/icons/icnLady1.svg" style="height: 30px">&nbsp;
-                {{item.serviceNamen}}</div>
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
               <div class="collapsible-body">
-                <p *ngFor="let itemPreisComp of item.preisListe; let j = index">{{itemPreisComp}}</p>
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
               </div>
             </li>
           </ul>
         </div>
-        <div class="col s12 m6 animated displayNone" id="preisList4">
 
+        <div class="col s12 m6 animated displayNone" id="preisList8">
+          <h5 style="text-align:left">EXTENSIONS</h5>
+          <ul class="collapsible">
+            <li *ngFor="let item of extensionsList; let i = index">
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
+              <div class="collapsible-body">
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
+              </div>
+            </li>
+          </ul>
         </div>
 
       </div>
     </div>
 
+    <!-- Row 5: HERREN / KINDER -->
+    <div class="row">
+      <div class="col s12 center">
+        <h3><i class="mdi-content-send brown-text"></i></h3>
+
+        <div class="col s12 m6 animated displayNone" id="preisList9">
+          <h5 style="text-align:left">HERREN</h5>
+          <ul class="collapsible">
+            <li *ngFor="let item of herrenList; let i = index">
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
+              <div class="collapsible-body">
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col s12 m6 animated displayNone" id="preisList10">
+          <h5 style="text-align:left">KINDER</h5>
+          <ul class="collapsible">
+            <li *ngFor="let item of kinderList; let i = index">
+              <div class="collapsible-header">
+                <img src="assets/img/icons/icnLady1.svg" style="height: 30px" alt="Icon">&nbsp; {{ item.serviceNamen }}
+              </div>
+              <div class="collapsible-body">
+                <p *ngFor="let price of item.preisListe; let j = index">{{ price }}</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
 
   </div>
 </div>
+
 
 <!-- <div class="container" id="preisDiv">
     <div class="section">
